@@ -1,0 +1,6 @@
+name: 'Mat Dummy action'
+description: 'Run mat dummy action'
+author: '@DurandMathieu'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
