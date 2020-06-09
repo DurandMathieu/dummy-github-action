@@ -11,4 +11,4 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: run
-        uses: DurandMathieu/dummy-github-action@v1
+        uses: DurandMathieu/dummy-github-action@v2
