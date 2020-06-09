@@ -4,6 +4,8 @@ on:
   push:
     paths-ignore:
       - '**.md'
+    branches: 
+      - master
 
 jobs:
   test:
@@ -11,4 +13,4 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: run
-        uses: DurandMathieu/dummy-github-action@v2
+        uses: DurandMathieu/dummy-github-action@v3

@@ -1,4 +1,2 @@
 #!/bin/bash
-
-echo "curl is there"
-which curl
+curl www.google.com
